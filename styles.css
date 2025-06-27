@@ -1,1 +1,50 @@
-body{font-family:sans-serif;margin:0;background:#fff;color:#333}header{background:#f0f0f0;padding:10px;text-align:center}.logo{height:60px}main{padding:10px}section{margin-bottom:20px}.product{border:1px solid #ccc;padding:10px;margin:10px}.product img{width:100%;max-width:200px}button{padding:8px 16px;background:#0066cc;color:white;border:none;cursor:pointer}button:hover{background:#004999}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+header {
+  background: #5c2d91;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.logo {
+  height: 60px;
+}
+main {
+  padding: 10px;
+}
+section {
+  margin-bottom: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+.product img {
+  width: 100%;
+  max-width: 200px;
+}
+button, .whatsapp-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffcc00;
+  color: #5c2d91;
+  border: none;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover, .whatsapp-button:hover {
+  background: #f0b400;
+}
+.confirmation {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
