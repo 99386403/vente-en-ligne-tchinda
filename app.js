@@ -3,7 +3,13 @@ let produits = [
   {id: 2, nom: "Robe Femme", prix: 8500, categorie: "Habits", images: ["https://via.placeholder.com/200x200.png?text=Robe1", "https://via.placeholder.com/200x200.png?text=Robe2"]},
   {id: 3, nom: "Collier Or", prix: 15000, categorie: "Bijoux", images: ["https://via.placeholder.com/200x200.png?text=Bijoux1"]},
   {id: 4, nom: "Speaker Bluetooth", prix: 9500, categorie: "Électronique", images: ["https://via.placeholder.com/200x200.png?text=Speaker1"]}
-];
+{
+  id: 101,
+  nom: "Article 01",
+  prix: 5000,
+  categorie: "Chaussures",
+  images: ["https://i.ibb.co/BnZVCht/article01.jpg"]
+},];
 let panier = [];
 let favoris = [];
 
