@@ -1,0 +1,13 @@
+{
+  "name": "Vente en ligne TCHINDA",
+  "short_name": "TCHINDA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5c2d91",
+  "icons": [{
+    "src": "logo.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
