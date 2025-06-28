@@ -11,34 +11,42 @@
 <body>
   <header>
     <img src="logo.png" class="logo" alt="Logo TCHINDA" />
-    <h1>Vente en ligne TCHINDA</h1>
-    <input type="text" id="search" placeholder="Rechercher un produit..." />
+    <h1>Vente en ligne <br/> <span class="slogan">TCHINDA</span></h1>
+    <input type="text" id="search" placeholder="🔍 Rechercher un produit..." />
   </header>
+
   <nav id="categories"></nav>
+
   <main>
     <section id="produits"></section>
-    <section id="panier">
-      <h2>Panier</h2>
-      <ul id="liste-panier"></ul>
-      <p>Total: <span id="total">0</span> FCFA</p>
-      <button id="vider-panier">Vider le panier</button>
-    </section>
-    <section id="commande">
-      <h2>Passer une commande</h2>
-      <form id="form-commande">
-        <input type="text" id="nom" placeholder="Votre nom" required />
-        <input type="text" id="telephone" placeholder="Téléphone" required />
-        <input type="text" id="adresse" placeholder="Adresse de livraison" required />
-        <select id="etat">
-          <option value="En attente">En attente</option>
-          <option value="En livraison">En livraison</option>
-          <option value="Livré">Livré</option>
-        </select>
-        <button type="submit">Commander</button>
-      </form>
-    </section>
+
+    <div class="bas-de-page">
+      <section id="panier">
+        <h2>🛒 Mon Panier</h2>
+        <ul id="liste-panier"></ul>
+        <p><strong>Total:</strong> <span id="total">0</span> FCFA</p>
+        <button id="vider-panier">🗑️ Vider le panier</button>
+      </section>
+
+      <section id="commande">
+        <h2>📦 Passer une commande</h2>
+        <form id="form-commande">
+          <input type="text" id="nom" placeholder="🧑 Votre nom" required />
+          <input type="text" id="telephone" placeholder="📞 Téléphone" required />
+          <input type="text" id="adresse" placeholder="📍 Adresse de livraison" required />
+          <select id="etat">
+            <option value="En attente">En attente</option>
+            <option value="En livraison">En livraison</option>
+            <option value="Livré">Livré</option>
+          </select>
+          <button type="submit">✅ Commander</button>
+        </form>
+      </section>
+    </div>
   </main>
+
   <a href="https://wa.me/237682028484" class="wa-float" target="_blank">💬</a>
+
   <script src="app.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
