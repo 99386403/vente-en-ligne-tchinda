@@ -1,1 +1,10 @@
-/* CSS avancé à insérer ici */
+body { font-family: sans-serif; margin: 0; background: #fff; color: #333; }
+header { background: #5c2d91; padding: 1rem; color: white; text-align: center; }
+.logo { height: 60px; }
+#search { margin-top: 10px; padding: 10px; width: 90%; max-width: 400px; }
+nav#categories { display: flex; flex-wrap: wrap; justify-content: center; margin: 10px; gap: 10px; }
+nav#categories button { padding: 10px; background: #eee; border: 1px solid #aaa; border-radius: 8px; }
+.product { border: 1px solid #ddd; margin: 10px; padding: 10px; background: #f9f9f9; }
+.product img { max-width: 100%; }
+.favorite { color: red; cursor: pointer; }
+.wa-float { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 15px; border-radius: 50%; font-size: 24px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.3); text-decoration: none; }
