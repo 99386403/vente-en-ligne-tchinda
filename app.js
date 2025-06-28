@@ -87,3 +87,17 @@ function majPanier() {
   });
   document.getElementById('total').textContent = total;
 }
+document.getElementById('admin-form').onsubmit = function(e) {
+  e.preventDefault();
+  const nom = document.getElementById('admin-nom').value;
+  const prix = parseInt(document.getElementById('admin-prix').value);
+  const categorie = document.getElementById('admin-categorie').value;
+  const image = document.getElementById('admin-image').value;
+  const id = produits.length + 1;
+
+  const nouveau = { id, nom, prix, categorie, images: [image] };
+  produits.push(nouveau);
+  afficherProduits(produits);
+  document.getElementById('admin-message').innerText = "✅ Produit ajouté temporairement.";
+  document.getElementById('admin-form').reset();
+};
